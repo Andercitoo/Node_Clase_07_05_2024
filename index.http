@@ -1,0 +1,54 @@
+# GET solicita datos de empleados del servidor
+GET https://apihmgzrest-test.onrender.com/api/empleados/ HTTP/1.1
+
+###
+# POST envía datos para crear un nuevo empleado en el servidor
+POST https://apihmgzrest-test.onrender.com/api/empleados/ HTTP/1.1
+Content-Type: application/json
+
+#Datos para enviar
+
+
+{
+    "identificacion": "1018228823",
+    "nombres": "Anderson",
+    "apellidos": "Rodriguez Rivera",
+    "correo": "anderson.rodriguez8@soysena.edu.co",
+    "salario_base": 2147483647
+}
+
+
+
+###
+
+DELETE https://apihmgzrest-test.onrender.com/api/empleados/21/
+
+###
+
+GET https::/localhost:3000/curso/programacion HTTP/1.1
+
+###
+
+GET https::/localhost:3000/curso/programacion/lenguajes HTTP/1.1
+
+###
+GET https::/localhost:3000/curso/programacion/nivel HTTP/1.1
+
+###
+
+
+GET https::/localhost:3000/curso/matematicas HTTP/1.1
+
+###
+
+GET https::/localhost:3000/curso/matematicas/tema HTTP/1.1
+
+###
+
+GET http://localhost:3000/curso/empleados HTTP/1.1
+
+###
+
+GET http://localhost:3000/curso/empleados/Sebastian HTTP/1.1
+
+
